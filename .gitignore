@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Tooling
+.claude/
+
+# Heavy source assets (not needed — images are embedded in index.html)
+Photos/
+Products/
+Branding Kit/
+Media/
+assets/
+*.zip
+*.mp4
+*.m4a
+*.ai
+*.psd
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.docx
+*.xlsx
+*.gsheet
+*.gdoc
