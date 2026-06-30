@@ -215,13 +215,13 @@
   .gal-grid .cap-meta{display:block;margin-top:5px;font-size:.78rem;color:var(--peach);font-weight:500}
 
   /* ---------- CREDENTIALS ---------- */
-  .creds{background:var(--green);color:#fff}
-  .creds h2{color:#fff}
-  .cred-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 40px;margin-top:38px;max-width:860px}
-  .cred{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.12)}
-  .cred .dot{flex:0 0 auto;width:10px;height:10px;border-radius:50%;background:var(--peach);margin-top:9px}
-  .cred b{font-weight:600}
-  .cred span{display:block;color:rgba(255,255,255,.72);font-size:.9rem}
+  .creds{background:var(--white)}
+  .cred-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:46px}
+  .svc .cred-list{list-style:none;display:flex;flex-direction:column;gap:14px}
+  .svc .cred-list li{padding-bottom:13px;border-bottom:1px solid rgba(10,79,58,.09)}
+  .svc .cred-list li:last-child{border-bottom:0;padding-bottom:0}
+  .svc .cred-list b{display:block;font-weight:600;color:var(--green);font-size:.96rem;line-height:1.35}
+  .svc .cred-list span{display:block;color:var(--muted);font-size:.87rem;margin-top:4px}
 
   /* ---------- CONTACT ---------- */
   .contact{background:var(--cream)}
@@ -324,7 +324,8 @@
     .stat{border-right:0;border-bottom:1px solid rgba(255,255,255,.1)}
     .cred-strip{grid-template-columns:repeat(2,1fr)}
     .ctile{border-right:0;border-bottom:1px solid rgba(255,255,255,.1)}
-    .gal-grid,.cred-grid{grid-template-columns:1fr 1fr}
+    .gal-grid{grid-template-columns:1fr 1fr}
+    .cred-grid{grid-template-columns:1fr}
     .media-grid{grid-template-columns:1fr}
     .contact-cards{grid-template-columns:1fr}
     .tgrid{grid-template-columns:1fr}
@@ -680,16 +681,34 @@
 <!-- ============ CREDENTIALS ============ -->
 <section class="section creds" id="creds">
   <div class="wrap">
-    <p class="eyebrow" style="color:var(--peach)" data-vi="Học vấn & Chuyên môn" data-en="Education & Credentials">Học vấn & Chuyên môn</p>
+    <p class="eyebrow" data-vi="Học vấn & Chuyên môn" data-en="Education & Credentials">Học vấn & Chuyên môn</p>
     <h2 data-vi="Nền tảng đào tạo bài bản" data-en="A rigorous foundation">Nền tảng đào tạo bài bản</h2>
     <div class="cred-grid">
-      <div class="cred"><span class="dot"></span><div><b>Master of Social Work — Clinical Practice</b><span>Silberman School of Social Work, CUNY (Honors)</span></div></div>
-      <div class="cred"><span class="dot"></span><div><b>BA in Psychology</b><span>Brandeis University (Cum Laude)</span></div></div>
-      <div class="cred"><span class="dot"></span><div><b>Licensed Master of Social Work (LMSW)</b><span data-vi="Bang New York · từ 2017, hơn 9 năm hành nghề" data-en="State of New York · since 2017, 9+ years">Bang New York · từ 2017, hơn 9 năm hành nghề</span></div></div>
-      <div class="cred"><span class="dot"></span><div><b data-vi="Hội Tâm lý trị liệu Việt Nam (VnPA)" data-en="Vietnam Psychotherapy Association (VnPA)">Hội Tâm lý trị liệu Việt Nam (VnPA)</b><span data-vi="Thành viên" data-en="Member">Thành viên</span></div></div>
-      <div class="cred"><span class="dot"></span><div><b data-vi="Giảng viên thỉnh giảng" data-en="Guest Lecturer">Giảng viên thỉnh giảng</b><span data-vi="Đại học VinUni · Trường Y tế Công cộng (HUPH)" data-en="VinUni · Hanoi University of Public Health (HUPH)">Đại học VinUni · Trường Y tế Công cộng (HUPH)</span></div></div>
-      <div class="cred"><span class="dot"></span><div><b data-vi="Tư vấn triển khai hệ thống chăm sóc sức khỏe tinh thần" data-en="Mental-health systems implementation consulting">Tư vấn triển khai hệ thống chăm sóc sức khỏe tinh thần</b><span data-vi="Dự án EpiC — FHI 360" data-en="EpiC Project — FHI 360">Dự án EpiC — FHI 360</span></div></div>
-      <div class="cred"><span class="dot"></span><div><b data-vi="Talkshow & Workshop" data-en="Talks & Workshops">Talkshow & Workshop</b><span>Intellect Vietnam · RevoMind</span></div></div>
+      <div class="svc reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="M6 10.5V16c0 1.5 2.5 3 6 3s6-1.5 6-3v-5.5"/><path d="M22 8v6"/></svg></div>
+        <h3 data-vi="Học vấn" data-en="Education">Học vấn</h3>
+        <ul class="cred-list">
+          <li><b>Master of Social Work — Clinical Practice</b><span>Silberman School of Social Work, CUNY (Honors)</span></li>
+          <li><b>BA in Psychology</b><span>Brandeis University (Cum Laude)</span></li>
+        </ul>
+      </div>
+      <div class="svc reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3 data-vi="Hành nghề & Hội nghề nghiệp" data-en="License & Membership">Hành nghề & Hội nghề nghiệp</h3>
+        <ul class="cred-list">
+          <li><b>Licensed Master of Social Work (LMSW)</b><span data-vi="Bang New York · từ 2017, hơn 9 năm hành nghề" data-en="State of New York · since 2017, 9+ years">Bang New York · từ 2017, hơn 9 năm hành nghề</span></li>
+          <li><b data-vi="Hội Tâm lý trị liệu Việt Nam (VnPA)" data-en="Vietnam Psychotherapy Association (VnPA)">Hội Tâm lý trị liệu Việt Nam (VnPA)</b><span data-vi="Thành viên" data-en="Member">Thành viên</span></li>
+        </ul>
+      </div>
+      <div class="svc reveal">
+        <div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14l-2 10H7L5 3Z"/><path d="M9 7h6"/><path d="M12 13v6m-4 2h8"/></svg></div>
+        <h3 data-vi="Giảng dạy & Tư vấn" data-en="Teaching & Consulting">Giảng dạy & Tư vấn</h3>
+        <ul class="cred-list">
+          <li><b data-vi="Giảng viên thỉnh giảng" data-en="Guest Lecturer">Giảng viên thỉnh giảng</b><span data-vi="Đại học VinUni · Trường Y tế Công cộng (HUPH)" data-en="VinUni · Hanoi University of Public Health (HUPH)">Đại học VinUni · Trường Y tế Công cộng (HUPH)</span></li>
+          <li><b data-vi="Tư vấn triển khai hệ thống chăm sóc sức khỏe tinh thần" data-en="Mental-health systems implementation consulting">Tư vấn triển khai hệ thống chăm sóc sức khỏe tinh thần</b><span data-vi="Dự án EpiC — FHI 360" data-en="EpiC Project — FHI 360">Dự án EpiC — FHI 360</span></li>
+          <li><b data-vi="Talkshow & Workshop" data-en="Talks & Workshops">Talkshow & Workshop</b><span>Intellect Vietnam · RevoMind</span></li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -731,7 +750,7 @@
         <h3 data-vi="Đăng ký tham vấn cá nhân" data-en="Book individual counseling">Đăng ký tham vấn cá nhân</h3>
         <p data-vi="Nhấn nút để mở email đã soạn sẵn mẫu đăng ký — bạn chỉ cần điền thông tin và gửi, ThS. Quân sẽ liên hệ sắp xếp buổi tham vấn." data-en="The button opens an email pre-filled with a short registration template — just fill it in and send, and Mr. Quan will follow up to arrange a session.">Nhấn nút để mở email đã soạn sẵn mẫu đăng ký — bạn chỉ cần điền thông tin và gửi, ThS. Quân sẽ liên hệ sắp xếp buổi tham vấn.</p>
         <div class="spacer"></div>
-        <a class="btn-form" href="https://mail.google.com/mail/?view=cm&fs=1&to=quan.dennis.vu%40gmail.com&su=%C4%90%C4%83ng%20k%C3%BD%20tham%20v%E1%BA%A5n%20t%C3%A2m%20l%C3%BD%20c%C3%A1%20nh%C3%A2n&body=K%C3%ADnh%20g%E1%BB%ADi%20ThS.%20V%C5%A9%20Anh%20Qu%C3%A2n%2C%0A%0AT%C3%B4i%20mu%E1%BB%91n%20%C4%91%C4%83ng%20k%C3%BD%20tham%20v%E1%BA%A5n%20t%C3%A2m%20l%C3%BD%20c%C3%A1%20nh%C3%A2n.%20Th%C3%B4ng%20tin%20c%E1%BB%A7a%20t%C3%B4i%3A%0A%0A%E2%80%A2%20H%E1%BB%8D%20v%C3%A0%20t%C3%AAn%3A%0A%E2%80%A2%20Tu%E1%BB%95i%3A%0A%E2%80%A2%20S%E1%BB%91%20%C4%91i%E1%BB%87n%20tho%E1%BA%A1i%20%2F%20Zalo%3A%0A%E2%80%A2%20%C4%90i%E1%BB%81u%20t%C3%B4i%20%C4%91ang%20g%E1%BA%B7p%20kh%C3%B3%20kh%C4%83n%3A%0A%E2%80%A2%20H%C3%ACnh%20th%E1%BB%A9c%20mong%20mu%E1%BB%91n%20%28tr%E1%BB%B1c%20ti%E1%BA%BFp%20%2F%20online%29%3A%0A%E2%80%A2%20Th%E1%BB%9Di%20gian%20mong%20mu%E1%BB%91n%3A%0A%0AC%E1%BA%A3m%20%C6%A1n%20anh." target="_blank" rel="noopener noreferrer">
+        <a class="btn-form" href="mailto:quan.dennis.vu@gmail.com?subject=%C4%90%C4%83ng%20k%C3%BD%20tham%20v%E1%BA%A5n%20t%C3%A2m%20l%C3%BD%20c%C3%A1%20nh%C3%A2n&body=K%C3%ADnh%20g%E1%BB%ADi%20ThS.%20V%C5%A9%20Anh%20Qu%C3%A2n%2C%0A%0AT%C3%B4i%20mu%E1%BB%91n%20%C4%91%C4%83ng%20k%C3%BD%20tham%20v%E1%BA%A5n%20t%C3%A2m%20l%C3%BD%20c%C3%A1%20nh%C3%A2n.%20Th%C3%B4ng%20tin%20c%E1%BB%A7a%20t%C3%B4i%3A%0A%0A%E2%80%A2%20H%E1%BB%8D%20v%C3%A0%20t%C3%AAn%3A%0A%E2%80%A2%20Tu%E1%BB%95i%3A%0A%E2%80%A2%20S%E1%BB%91%20%C4%91i%E1%BB%87n%20tho%E1%BA%A1i%20%2F%20Zalo%3A%0A%E2%80%A2%20%C4%90i%E1%BB%81u%20t%C3%B4i%20%C4%91ang%20g%E1%BA%B7p%20kh%C3%B3%20kh%C4%83n%3A%0A%E2%80%A2%20H%C3%ACnh%20th%E1%BB%A9c%20mong%20mu%E1%BB%91n%20%28tr%E1%BB%B1c%20ti%E1%BA%BFp%20%2F%20online%29%3A%0A%E2%80%A2%20Th%E1%BB%9Di%20gian%20mong%20mu%E1%BB%91n%3A%0A%0AC%E1%BA%A3m%20%C6%A1n%20anh.">
           <svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
           <span data-vi="Liên hệ tôi" data-en="Contact me">Liên hệ tôi</span>
         </a>
@@ -741,7 +760,7 @@
         <h3 data-vi="Hợp tác chương trình & đào tạo" data-en="Programs & training partnerships">Hợp tác chương trình & đào tạo</h3>
         <p data-vi="Muốn tư vấn triển khai chương trình SKTT, mời đào tạo hay diễn giả? Nhấn nút để mở email đã soạn sẵn mẫu thông tin hợp tác — chỉ cần điền và gửi." data-en="Looking to consult on a mental-health program, or invite a trainer or speaker? The button opens an email pre-filled with a partnership template — just fill it in and send.">Muốn tư vấn triển khai chương trình SKTT, mời đào tạo hay diễn giả? Nhấn nút để mở email đã soạn sẵn mẫu thông tin hợp tác — chỉ cần điền và gửi.</p>
         <div class="spacer"></div>
-        <a class="btn-form" href="https://mail.google.com/mail/?view=cm&fs=1&to=quan.dennis.vu%40gmail.com&su=H%E1%BB%A3p%20t%C3%A1c%20ch%C6%B0%C6%A1ng%20tr%C3%ACnh%20%26%20%C4%91%C3%A0o%20t%E1%BA%A1o%20c%C3%B9ng%20ThS.%20V%C5%A9%20Anh%20Qu%C3%A2n&body=K%C3%ADnh%20g%E1%BB%ADi%20ThS.%20V%C5%A9%20Anh%20Qu%C3%A2n%2C%0A%0A%C4%90%C6%A1n%20v%E1%BB%8B%20ch%C3%BAng%20t%C3%B4i%20mong%20mu%E1%BB%91n%20h%E1%BB%A3p%20t%C3%A1c%20v%E1%BB%9Bi%20anh%20v%E1%BB%81%20%28ch%E1%BB%8Dn%20m%E1%BB%99t%29%3A%0A%20%20%E2%80%93%20T%C6%B0%20v%E1%BA%A5n%20%2F%20tri%E1%BB%83n%20khai%20ch%C6%B0%C6%A1ng%20tr%C3%ACnh%20ch%C4%83m%20s%C3%B3c%20s%E1%BB%A9c%20kh%E1%BB%8Fe%20tinh%20th%E1%BA%A7n%0A%20%20%E2%80%93%20%C4%90%C3%A0o%20t%E1%BA%A1o%20%2F%20workshop%20cho%20nh%C3%A2n%20s%E1%BB%B1%0A%20%20%E2%80%93%20M%E1%BB%9Di%20di%E1%BB%85n%20gi%E1%BA%A3%20%2F%20talkshow%0A%0ATh%C3%B4ng%20tin%20c%E1%BB%A7a%20ch%C3%BAng%20t%C3%B4i%3A%0A%E2%80%A2%20T%C3%AAn%20t%E1%BB%95%20ch%E1%BB%A9c%20%2F%20doanh%20nghi%E1%BB%87p%3A%0A%E2%80%A2%20Ng%C6%B0%E1%BB%9Di%20li%C3%AAn%20h%E1%BB%87%20%26%20vai%20tr%C3%B2%3A%0A%E2%80%A2%20Quy%20m%C3%B4%20%2F%20%C4%91%E1%BB%91i%20t%C6%B0%E1%BB%A3ng%20tham%20gia%3A%0A%E2%80%A2%20Th%E1%BB%9Di%20gian%20%26%20h%C3%ACnh%20th%E1%BB%A9c%20mong%20mu%E1%BB%91n%3A%0A%E2%80%A2%20N%E1%BB%99i%20dung%20mong%20mu%E1%BB%91n%20trao%20%C4%91%E1%BB%95i%3A%0A%0AC%E1%BA%A3m%20%C6%A1n%20anh." target="_blank" rel="noopener noreferrer">
+        <a class="btn-form" href="mailto:quan.dennis.vu@gmail.com?subject=H%E1%BB%A3p%20t%C3%A1c%20ch%C6%B0%C6%A1ng%20tr%C3%ACnh%20%26%20%C4%91%C3%A0o%20t%E1%BA%A1o%20c%C3%B9ng%20ThS.%20V%C5%A9%20Anh%20Qu%C3%A2n&body=K%C3%ADnh%20g%E1%BB%ADi%20ThS.%20V%C5%A9%20Anh%20Qu%C3%A2n%2C%0A%0A%C4%90%C6%A1n%20v%E1%BB%8B%20ch%C3%BAng%20t%C3%B4i%20mong%20mu%E1%BB%91n%20h%E1%BB%A3p%20t%C3%A1c%20v%E1%BB%9Bi%20anh%20v%E1%BB%81%20%28ch%E1%BB%8Dn%20m%E1%BB%99t%29%3A%0A%20%20%E2%80%93%20T%C6%B0%20v%E1%BA%A5n%20%2F%20tri%E1%BB%83n%20khai%20ch%C6%B0%C6%A1ng%20tr%C3%ACnh%20ch%C4%83m%20s%C3%B3c%20s%E1%BB%A9c%20kh%E1%BB%8Fe%20tinh%20th%E1%BA%A7n%0A%20%20%E2%80%93%20%C4%90%C3%A0o%20t%E1%BA%A1o%20%2F%20workshop%20cho%20nh%C3%A2n%20s%E1%BB%B1%0A%20%20%E2%80%93%20M%E1%BB%9Di%20di%E1%BB%85n%20gi%E1%BA%A3%20%2F%20talkshow%0A%0ATh%C3%B4ng%20tin%20c%E1%BB%A7a%20ch%C3%BAng%20t%C3%B4i%3A%0A%E2%80%A2%20T%C3%AAn%20t%E1%BB%95%20ch%E1%BB%A9c%20%2F%20doanh%20nghi%E1%BB%87p%3A%0A%E2%80%A2%20Ng%C6%B0%E1%BB%9Di%20li%C3%AAn%20h%E1%BB%87%20%26%20vai%20tr%C3%B2%3A%0A%E2%80%A2%20Quy%20m%C3%B4%20%2F%20%C4%91%E1%BB%91i%20t%C6%B0%E1%BB%A3ng%20tham%20gia%3A%0A%E2%80%A2%20Th%E1%BB%9Di%20gian%20%26%20h%C3%ACnh%20th%E1%BB%A9c%20mong%20mu%E1%BB%91n%3A%0A%E2%80%A2%20N%E1%BB%99i%20dung%20mong%20mu%E1%BB%91n%20trao%20%C4%91%E1%BB%95i%3A%0A%0AC%E1%BA%A3m%20%C6%A1n%20anh.">
           <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
           <span data-vi="Liên hệ tôi" data-en="Contact me">Liên hệ tôi</span>
         </a>
