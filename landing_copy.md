@@ -19,20 +19,20 @@ Replace the current eyebrow, H1, role, and tag. CTAs stay as-is. The long creden
 line moves to a small line UNDER the CTA row.
 
 **Eyebrow (audience)**
-- VI: `Dành cho những người trẻ tuổi đang đi qua một giai đoạn không dễ dàng`
+- VI: `Dành cho những người trẻ tuổi đang trải qua một giai đoạn không dễ dàng`
 - EN: `For young people going through a hard chapter`
 
 **Headline (H1)** — primary choice
-- VI: `Hiểu mình hơn, để sống nhẹ hơn.`
-- EN: `Understand yourself, so life feels lighter.`
+- VI: `Thay đổi hành động, thay đổi cảm xúc.`
+- EN: `Act Different, Feel Different.`
 
 **Sub-line (tag)**
-- VI: `Một không gian an toàn để bạn được lắng nghe, hiểu mình rõ hơn và từng bước tìm lại sự cân bằng — qua những buổi tham vấn và hỗ trợ tâm lý 1–1 dành cho những người trẻ tuổi đang đối diện với áp lực, tổn thương và những ngã rẽ của tuổi trưởng thành.`
-- EN: `A safe space to be heard, to understand yourself more clearly, and to find your balance again — through one-on-one counseling conversations for young Vietnamese adults facing pressure, hurt, and the turning points of early adulthood.`
+- VI: `Không gian an toàn đồng hành cùng người trẻ đối diện với áp lực, tổn thương và những bước ngoặt trưởng thành qua tham vấn tâm lý 1–1 chuyên nghiệp.`
+- EN: `A safe space guiding young adults through pressure, healing, and life transitions with professional 1-on-1 clinical counseling.`
 
 **Credential line (small, under the CTA row)**
-- VI: `ThS. Vũ Anh Quân · Thạc sĩ Công tác Xã hội Lâm sàng (CUNY Silberman) · LMSW, tiểu bang New York, Hoa Kỳ`
-- EN: `Quan Anh Vu, MSW · Master of Social Work, Clinical Practice (CUNY Silberman) · LMSW, New York, USA`
+- VI: `ThS. Vũ Anh Quân · Thạc sĩ Công tác Xã hội Lâm sàng (CUNY Silberman) · Nhà thực hành Công tác Xã hội được cấp phép bởi tiểu bang New York, Hoa Kỳ · Hoạt động tại Hà Nội, Việt Nam`
+- EN: `Quan Anh Vu, MSW · Master of Social Work, Clinical Practice (CUNY Silberman) · LMSW, New York, USA · Currently practicing in Hanoi, Vietnam`
 
 ---
 
@@ -44,7 +44,7 @@ trainee numbers are now SPLIT into two separate tiles so each claim is
 independently true.
 
 **Tile 1 — Years**
-- VI: `Gần 10 năm thực hành tham vấn từ Hoa Kỳ tới Việt Nam`
+- VI: `Gần 10 năm thực hành tham vấn tâm lý từ Hoa Kỳ tới Việt Nam`
 - EN: `Nearly a decade of counseling practice from USA to Vietnam`
 
 **Tile 2 — License**
@@ -60,11 +60,10 @@ independently true.
 - EN: `Over 200 practitioners trained through the DEP Project (NIMH R01`
 
 **Tile 5 — Orgs**
-- VI: `Đào tạo & diễn thuyết cùng Intellect Vietnam, thành viên Hội Tâm lý trị liệu Việt Nam (VnPA)`
-- EN: `Training & speaking with Intellect Vietnam, member of Vietnam Psychotherapy Association (VnPA)`
+- VI: `Diễn thuyết cùng Intellect Vietnam, thỉnh giảng tại VinUni, Trường Y tế Công cộng, thành viên Hội Tâm lý trị liệu Việt Nam (VnPA)`
+- EN: `Speaking with Intellect Vietnam, visiting lecturer at VinUni, Hanoi University of Public Health, member of Vietnam Psychotherapy Association (VnPA)`
 
-> If five tiles is too many for the layout, drop Tile 1 or Tile 2 first — never
-> merge Tiles 3 and 4 back together.
+> If five tiles is too many for the layout, merge Tiles 4 and 5 together.
 
 ---
 
@@ -120,16 +119,19 @@ independently true.
 ## 4. STORY (replaces current story paragraphs; leads with the emotional core)
 
 **Paragraph 1**
-- VI: `Vào thời phổ thông, một biến cố sức khỏe nghiêm trọng đã đưa Quân sang Mỹ điều trị. Giữa những ngày hoang mang nhất, một nhân viên công tác xã hội bệnh viện đã ở bên — không chỉ lo thủ tục, mà thật sự lắng nghe, giúp anh trụ lại và dần tìm thấy chỗ đứng của mình nơi đất khách.`
-- EN: `In his teens, a serious health crisis brought Quan to the United States for treatment. In the most disorienting days of all, a hospital social worker stayed beside him: not just handling paperwork, but truly listening, helping him steady himself and slowly find his footing in a foreign land.`
+- VI: `Câu chuyện của Quân bắt đầu với cuộc chiến với ung thư bạch cầu ở tuổi 15. Biến cố lớn này đã đưa anh sang Mỹ để điều trị y tế. Giữa những ngày tháng vừa mệt mỏi vì bệnh tật, vừa bỡ ngỡ lạc lõng ở một đất nước xa lạ, Quân may mắn nhận được sự đồng hành từ một nhân viên công tác xã hội tại bệnh viện. Người này không chỉ hỗ trợ Quân và gia đình các thủ tục thực tế như chỗ ở, trường học, mà điều quan trọng nhất là họ thực sự ngồi lại để lắng nghe anh. Sự hỗ trợ đó đã giúp Quân có điểm tựa để bình tâm lại giữa giai đoạn mọi thứ xung quanh đang rất bất ổn.`
+- EN: `Quan’s story began with a battle with leukemia at age 15. This major life turning point required him to travel to the United States for medical treatment. Amid the physical exhaustion of illness and the absolute disorientation of being in a foreign land, he received support from a hospital social worker. This worker didn’t just manage the logistics of housing and education—they truly listened, helping him steady his footing when everything else felt unstable.`
 
 **Pull quote**
-- VI: `“Sự hỗ trợ tâm lý đúng người, đúng lúc đã thay đổi cuộc đời tôi. Đó là lý do tôi chọn nghề này.”`
+- VI: `“Sự hỗ trợ đúng cách, từ đúng người và vào đúng thời điểm đã thay đổi cuộc đời tôi. Đó là lý do vì sao tôi làm công việc này.”`
 - EN: `“The right support, from the right person, at the right time changed my life. That's why I do this work.”`
 
 **Paragraph 2**
-- VI: `Trải nghiệm ấy dẫn anh đến tấm bằng Cử nhân Tâm lý học (ĐH Brandeis) và Thạc sĩ Công tác Xã hội định hướng Lâm sàng (CUNY Silberman), rồi trở thành nhà thực hành sức khoẻ tâm thần được cấp phép (LMSW) tại tiểu bang New York Hoa Kỳ, tập trung vào các rối loạn tâm thần nghiêm trọng. Từ năm 2019, anh trở về Việt Nam để làm đúng điều đã từng cứu lấy mình: đồng hành tham vấn cho những người trẻ, và mang những kiến thức về sức khỏe tinh thần đến gần hơn với cộng đồng qua các buổi đào tạo, talkshow và workshop.`
-- EN: `That experience led him to a BA in Psychology (Brandeis University) and a Master of Social Work with a clinical focus (CUNY Silberman), then to becoming a licensed mental health practitioner (LMSW) in New York State, specializing in the treatment of depression. Since 2019 he has been back in Vietnam doing the very thing that once saved him: walking alongside young people in counseling, and bringing mental-health knowledge closer to the community through training, talks, and workshops.`
+- VI: `Trải nghiệm đó đã thôi thúc Quân theo đuổi ngành tâm lý và hỗ trợ tinh thần một cách chuyên nghiệp. Quân tốt nghiệp Cử nhân Tâm lý học tại Đại học Brandeis, sau đó hoàn thành bằng Thạc sĩ Công tác Xã hội Lâm sàng tại Trường Silberman (CUNY) và nhận chứng chỉ hành nghề chuyên nghiệp (LMSW) của bang New York.
+Quân có nhiều năm làm việc trực tiếp tại các khu vực còn nhiều khó khăn ở Harlem và Jamaica (vùng Queens, New York). Công việc chính của anh lúc đó là trị liệu tâm lý và hỗ trợ phục hồi cho những cá nhân phải đối diện với chứng lo âu, trầm cảm nặng, hoặc các hội chứng tâm thần phức tạp như rối loạn lưỡng cực và tâm thần phân liệt.
+Năm 2019, Quân trở về Việt Nam. Hiện tại, anh dành phần lớn thời gian để lắng nghe và đồng hành cùng các bạn trẻ qua các buổi tham vấn cá nhân 1-1, đồng thời tham gia tổ chức các buổi hội thảo, talkshow và chương trình đào tạo với mong muốn đưa những kiến thức thực tế về sức khỏe tinh thần đến gần hơn với cộng đồng.`
+- EN: `Inspired by that lifeline, Quan dedicated his life to paying it forward. He earned his BA in Psychology from Brandeis University and a Master of Social Work from the Silberman School of Social Work (CUNY), becoming a Licensed Master Social Worker (LMSW) in New York State. He spent years embedded in high-needs communities across Harlem and Jamaica, Queens, specializing in clinical therapy and community rehabilitation for individuals facing severe anxiety, depression, and complex psychiatric conditions like schizophrenia and bipolar disorder.
+In 2019, Quan returned home to Vietnam to bring his mission full circle. Today, he walks alongside young adults and their support systems through compassionate counseling, while breaking down mental health barriers across the country through community workshops, talks, and professional training.`
 
 ---
 
@@ -140,9 +142,9 @@ vs-Clinical-Psychology comparison table off this landing page (to a future About
 Approach page). Replace the heavy chip list + fit list with the two blocks below.
 
 **Intro (above the diagram)**
-- VI: `Quân không nhìn khó khăn của bạn như một vấn đề tách rời, mà đặt nó trong toàn bộ bối cảnh sống: cơ thể, suy nghĩ, cảm xúc, các mối quan hệ và môi trường xung quanh bạn. Đó là tinh thần của Công tác Xã hội Lâm sàng — và cũng là lý do mỗi lộ trình trị liệu được thiết kế riêng cho từng người.`
-- EN: `Quan doesn't treat your difficulty as an isolated problem — he places it within your whole context: your body, your thoughts, your emotions, your relationships, and the environment around you. That's the spirit of Clinical Social Work, and the reason every course of therapy is designed around the individual.`
+- VI: `ThS. Quân không nhìn khó khăn của bạn như một vấn đề tách rời, mà đặt nó trong toàn bộ bối cảnh sống: cơ thể, suy nghĩ, cảm xúc, các mối quan hệ và môi trường xung quanh bạn. Đó là tinh thần của Công tác Xã hội Lâm sàng — và cũng là lý do mỗi lộ trình trị liệu được thiết kế riêng cho từng người.`
+- EN: `Mr. Quan doesn't treat your difficulty as an isolated problem — he places it within your whole context: your body, your thoughts, your emotions, your relationships, and the environment around you. That's the spirit of Clinical Social Work, and the reason every course of therapy is designed around the individual.`
 
 **Modalities line (under the diagram)**
-- VI: `Tùy vào bạn, Quân kết hợp linh hoạt các phương pháp đã được kiểm chứng: Liệu pháp Chấp nhận và Cam kết (ACT), Liệu pháp Nhận thức Hành vi (CBT), Liệu pháp Kích hoạt Hành vi (BA), và Liệu pháp dựa trên Tiến trình (PBT).`
-- EN: `Depending on what you need, Quan flexibly combines evidence-based approaches: ACT, CBT, Behavioral Activation, and Process-Based Therapy (PBT).`
+- VI: `Tùy vào bạn, ThS. Quân kết hợp linh hoạt các phương pháp đã được kiểm chứng: Liệu pháp Chấp nhận và Cam kết (ACT), Liệu pháp Nhận thức Hành vi (CBT), Liệu pháp Kích hoạt Hành vi (BA), và Liệu pháp dựa trên Tiến trình (PBT).`
+- EN: `Depending on what you need, Mr. Quan flexibly combines evidence-based approaches: ACT, CBT, Behavioral Activation, and Process-Based Therapy (PBT).`
