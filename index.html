@@ -96,19 +96,19 @@
   /* APPROACH */
   .appr-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
   .diagram-wrap{display:flex;justify-content:center}
-  .diagram{position:relative;width:460px;height:460px;border-radius:50%;background:#E4EEE7;border:1px solid var(--line)}
-  .ring{position:absolute;left:50%;bottom:0;transform:translateX(-50%);border-radius:50%;border:1px solid var(--line)}
-  .ring>.rl{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;font:600 13px/1 Inter,sans-serif}
-  .r5{width:460px;height:460px;background:#E4EEE7;position:relative}
-  .r5>.rl{top:20px;color:#2E5A47;letter-spacing:.05em}
-  .r4{width:366px;height:366px;background:#CFE2D6}
-  .r4>.rl{top:18px;color:#2E5A47;letter-spacing:.05em}
-  .r3{width:276px;height:276px;background:#AECEBD}
-  .r3>.rl{top:16px;color:#1E4635;letter-spacing:.03em}
-  .r2{width:188px;height:188px;background:#7FB79E;border-color:rgba(16,66,46,.18)}
-  .r2>.rl{top:14px;color:#14382A}
-  .r1{width:104px;height:104px;background:var(--peach);border-color:rgba(120,70,10,.25);display:flex;align-items:center;justify-content:center}
-  .r1>.rl{position:static;transform:none;font:700 15px/1 Inter,sans-serif;color:#7A4A12}
+  .diagram{position:relative;width:460px;height:460px;border-radius:50%;background:#E7F0EA;border:1px solid rgba(16,66,46,.10)}
+  .diagram .rl{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;font:700 15px/1 Inter,sans-serif;color:#1E4635}
+  .ring{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:50%;border:3px solid #fff}
+  .r5>.rl{top:28px}
+  .r4{width:376px;height:376px;background:#D3E4DA}
+  .r4>.rl{top:24px}
+  .r3{width:292px;height:292px;background:#B7D5C4}
+  .r3>.rl{top:22px;color:#17402F}
+  .r2{width:208px;height:208px;background:#8FBFA6}
+  .r2>.rl{top:16px;color:#123B28}
+  .r1{width:140px;height:140px;background:#1E4E3A;border:4px solid #fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}
+  .r1 .person{width:38px;height:38px;flex:0 0 auto}
+  .r1 .rl-c{color:#fff;font:700 15px/1 Inter,sans-serif}
   .mod-intro{font:400 15px/1.6 Inter,sans-serif;color:var(--body);margin:24px 0 0}
   .modality{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
   .modality span{font:500 13px/1 Inter,sans-serif;color:var(--green);border:1px solid rgba(16,66,46,.2);padding:8px 14px;border-radius:3px}
@@ -247,10 +247,11 @@
     .gal-grid{grid-template-columns:1fr 1fr}
     .stat-grid{grid-template-columns:1fr}
     .stat{border-right:0}
-    .diagram{width:320px;height:320px}
-    .r5{width:320px;height:320px}.r4{width:255px;height:255px}.r3{width:192px;height:192px}
-    .r2{width:131px;height:131px}.r1{width:78px;height:78px}
-    .r1>.rl{font-size:12px}
+    .diagram{width:300px;height:300px}
+    .r4{width:245px;height:245px}.r3{width:190px;height:190px}.r2{width:135px;height:135px}.r1{width:96px;height:96px}
+    .diagram .rl{font-size:12px}
+    .r5>.rl{top:12px}.r4>.rl{top:10px}.r3>.rl{top:9px}.r2>.rl{top:8px}
+    .r1 .person{width:28px;height:28px}
   }
 </style>
 </head>
@@ -329,14 +330,17 @@
   <div class="appr-grid wrap">
     <div class="diagram-wrap">
       <div class="diagram r5">
-        <span class="rl" data-vi="Văn hóa & Xã hội" data-en="Culture & Society">Văn hóa & Xã hội</span>
+        <span class="rl" data-vi="Văn hóa · Xã hội" data-en="Culture · Society">Văn hóa · Xã hội</span>
         <div class="ring r4">
           <span class="rl" data-vi="Cộng đồng" data-en="Community">Cộng đồng</span>
           <div class="ring r3">
             <span class="rl" data-vi="Nhà trường · Công việc" data-en="School · Work">Nhà trường · Công việc</span>
             <div class="ring r2">
               <span class="rl" data-vi="Gia đình" data-en="Family">Gia đình</span>
-              <div class="ring r1"><span class="rl" data-vi="Cá nhân" data-en="Individual">Cá nhân</span></div>
+              <div class="ring r1">
+                <svg class="person" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.4" r="3.7" fill="#F4C77E"/><path d="M5.4 19.4a6.6 6.6 0 0 1 13.2 0z" fill="#F4C77E"/></svg>
+                <span class="rl-c" data-vi="Cá nhân" data-en="Individual">Cá nhân</span>
+              </div>
             </div>
           </div>
         </div>
@@ -417,7 +421,7 @@
       <div class="event"><span class="yr">2025</span><span class="ti" data-vi="Diễn giả cho các Khách hàng Doanh nghiệp Đa quốc gia" data-en="Speaker for Corporate MNC Clients">Diễn giả cho các Khách hàng Doanh nghiệp Đa quốc gia</span><span class="org">Intellect</span></div>
       <div class="event"><span class="yr">2024</span><span class="ti" data-vi="Ứng dụng Tâm lý học giúp Nữ Lãnh đạo Thành công và Hạnh phúc" data-en="Applied Psychology for Successful & Happy Women Leaders">Ứng dụng Tâm lý học giúp Nữ Lãnh đạo Thành công và Hạnh phúc</span><span class="org" data-vi="Aus4Skills · Hội Cựu Du học sinh Úc" data-en="Aus4Skills · Australian Alumni">Aus4Skills · Hội Cựu Du học sinh Úc</span></div>
       <div class="event"><span class="yr">2024</span><span class="ti" data-vi="Nhận biết và Vượt qua Bẫy Nhận thức — Sống Quân bình và Hạnh phúc" data-en="Recognizing & Overcoming Cognitive Traps — Living Balanced & Happy">Nhận biết và Vượt qua Bẫy Nhận thức — Sống Quân bình và Hạnh phúc</span><span class="org">Gymhaus</span></div>
-      <div class="event"><span class="yr">2023</span><span class="ti" data-vi="Phương pháp Cải thiện Động lực Học tập" data-en="Improving Learning Motivation">Phương pháp Cải thiện Động lực Học tập</span><span class="org">Hanoi School of Business – Vietnam National University</span></div>
+      <div class="event"><span class="yr">2023</span><span class="ti" data-vi="Phương pháp Cải thiện Động lực Học tập" data-en="Improving Learning Motivation">Phương pháp Cải thiện Động lực Học tập</span><span class="org" data-vi="Trường Quản trị và Kinh doanh, Đại học Quốc gia Hà Nội" data-en="Hanoi School of Business and Management, VNU">Trường Quản trị và Kinh doanh, Đại học Quốc gia Hà Nội</span></div>
       <div class="event"><span class="yr">2022</span><span class="ti" data-vi="Xây dựng Lối sống Lành mạnh" data-en="Building a Healthy Lifestyle">Xây dựng Lối sống Lành mạnh</span><span class="org">Deloitte Vietnam</span></div>
       <div class="event"><span class="yr">2022</span><span class="ti" data-vi="Quản lý Động lực trong Tập luyện Thể chất" data-en="Managing Motivation in Physical Training">Quản lý Động lực trong Tập luyện Thể chất</span><span class="org">Swequity</span></div>
       <div class="event"><span class="yr">2021</span><span class="ti" data-vi="Quản lý Căng thẳng trong Đại dịch COVID" data-en="Managing Stress during the COVID Pandemic">Quản lý Căng thẳng trong Đại dịch COVID</span><span class="org">Abeo Vietnam · UpMind Inc.</span></div>
@@ -635,7 +639,7 @@
         <h3 data-vi="Nhận trọn bộ danh mục Workshop" data-en="Get our full workshop catalogue">Nhận trọn bộ danh mục Workshop</h3>
         <p data-vi="Gửi email cho chúng tôi để nhận trọn bộ danh mục Workshop & Đào tạo. Nút bên dưới mở sẵn email mẫu ngắn gọn — chỉ cần điền vài thông tin và gửi." data-en="Send us an email to receive our full workshop offering catalogue. The button opens a short pre-filled template — just add a few details and send.">Gửi email cho chúng tôi để nhận trọn bộ danh mục Workshop & Đào tạo. Nút bên dưới mở sẵn email mẫu ngắn gọn — chỉ cần điền vài thông tin và gửi.</p>
         <div class="grow"></div>
-        <a class="btn-mail" target="_top" href="mailto:quan.dennis.vu@gmail.com?subject=Y%C3%AAu%20c%E1%BA%A7u%20danh%20m%E1%BB%A5c%20Workshop%20%26%20%C4%90%C3%A0o%20t%E1%BA%A1o&amp;body=K%C3%ADnh%20g%E1%BB%ADi%20ThS.%20V%C5%A9%20Anh%20Qu%C3%A2n%2C%0D%0A%0D%0A%C4%90%C6%A1n%20v%E1%BB%8B%20ch%C3%BAng%20t%C3%B4i%20mong%20nh%E1%BA%ADn%20danh%20m%E1%BB%A5c%20Workshop%20%26%20%C4%90%C3%A0o%20t%E1%BA%A1o%20%C4%91%E1%BA%A7y%20%C4%91%E1%BB%A7.%20V%C3%A0i%20th%C3%B4ng%20tin%20ng%E1%BA%AFn%3A%0D%0A%E2%80%A2%20T%C3%AAn%20t%E1%BB%95%20ch%E1%BB%A9c%3A%0D%0A%E2%80%A2%20Ng%C6%B0%E1%BB%9Di%20li%C3%AAn%20h%E1%BB%87%3A%0D%0A%E2%80%A2%20Ch%E1%BB%A7%20%C4%91%E1%BB%81%20/%20nhu%20c%E1%BA%A7u%20quan%20t%C3%A2m%3A%0D%0A%0D%0AC%E1%BA%A3m%20%C6%A1n%20anh."><span data-vi="Gửi email nhận danh mục" data-en="Email for the catalogue">Gửi email nhận danh mục</span></a>
+        <a class="btn-mail" target="_top" href="mailto:quan.dennis.vu@gmail.com?subject=Y%C3%AAu%20c%E1%BA%A7u%20danh%20m%E1%BB%A5c%20Workshop%20%26%20%C4%90%C3%A0o%20t%E1%BA%A1o&amp;body=Th%C3%A2n%20g%E1%BB%ADi%20ThS.%20V%C5%A9%20Anh%20Qu%C3%A2n%2C%0D%0A%0D%0A%C4%90%C6%A1n%20v%E1%BB%8B%20ch%C3%BAng%20t%C3%B4i%20mong%20nh%E1%BA%ADn%20danh%20m%E1%BB%A5c%20Workshop%20%26%20%C4%90%C3%A0o%20t%E1%BA%A1o%20%C4%91%E1%BA%A7y%20%C4%91%E1%BB%A7.%20V%C3%A0i%20th%C3%B4ng%20tin%20ng%E1%BA%AFn%3A%0D%0A%E2%80%A2%20T%C3%AAn%20t%E1%BB%95%20ch%E1%BB%A9c%3A%0D%0A%E2%80%A2%20Ng%C6%B0%E1%BB%9Di%20li%C3%AAn%20h%E1%BB%87%3A%0D%0A%E2%80%A2%20Ch%E1%BB%A7%20%C4%91%E1%BB%81%20/%20Nhu%20c%E1%BA%A7u%20di%E1%BB%85n%20thuy%E1%BA%BFt%20quan%20t%C3%A2m%3A%0D%0A%0D%0AC%E1%BA%A3m%20%C6%A1n%20anh."><span data-vi="Gửi email nhận danh mục" data-en="Email for the catalogue">Gửi email nhận danh mục</span></a>
       </div>
     </div>
   </div>
