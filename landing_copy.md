@@ -9,7 +9,6 @@ Sections in this file:
 2. Credibility strip (replaces the old stats block; tiles are now SPLIT)
 3. Testimonials (BUILD BUT KEEP COMMENTED OUT — see instructions)
 4. Story
-5. Approach
 
 ---
 
@@ -119,32 +118,19 @@ independently true.
 ## 4. STORY (replaces current story paragraphs; leads with the emotional core)
 
 **Paragraph 1**
-- VI: `Câu chuyện của Quân bắt đầu với cuộc chiến với ung thư bạch cầu ở tuổi 15. Biến cố lớn này đã đưa anh sang Mỹ để điều trị y tế. Giữa những ngày tháng vừa mệt mỏi vì bệnh tật, vừa bỡ ngỡ lạc lõng ở một đất nước xa lạ, Quân may mắn nhận được sự đồng hành từ một nhân viên công tác xã hội tại bệnh viện. Người này không chỉ hỗ trợ Quân và gia đình các thủ tục thực tế như chỗ ở, trường học, mà điều quan trọng nhất là họ thực sự ngồi lại để lắng nghe anh. Sự hỗ trợ đó đã giúp Quân có điểm tựa để bình tâm lại giữa giai đoạn mọi thứ xung quanh đang rất bất ổn.`
-- EN: `Quan’s story began with a battle with leukemia at age 15. This major life turning point required him to travel to the United States for medical treatment. Amid the physical exhaustion of illness and the absolute disorientation of being in a foreign land, he received support from a hospital social worker. This worker didn’t just manage the logistics of housing and education—they truly listened, helping him steady his footing when everything else felt unstable.`
+- VI: `Câu chuyện của Quân bắt đầu năm 15 tuổi, với chẩn đoán ung thư bạch cầu. Biến cố ấy buộc anh phải sang Mỹ điều trị. Giữa những ngày tháng vừa kiệt sức vì bệnh tật, vừa lạc lõng ở một đất nước xa lạ, Quân nhận được sự hỗ trợ từ một nhân viên công tác xã hội lâm sàng tại bệnh viện. Người này đã trực tiếp thực hiện các buổi tham vấn tâm lý chuyên sâu cho Quân, cũng như hỗ trợ gia đình anh lo liệu các thủ tục thực tế như giáo dục, đi lại, ăn ở và tài chính.
+Họ ngồi lại cùng anh, giúp anh đối diện và đi qua những cuộc khủng hoảng dồn dập đổ xuống lúc bấy giờ: nỗi sợ cái chết cận kề ở tuổi 15, áp lực thích nghi khi thay đổi môi trường sống quá đột ngột, cảm giác cô độc của một đứa trẻ mới lớn phải rời xa trường lớp, bạn bè, và cả sự tự ti khi chứng kiến cơ thể mình biến đổi, rụng tóc sau những đợt hóa trị dài ngày.
+Những buổi trò chuyện trị liệu đó đã thay đổi hoàn toàn hướng đi cuộc đời Quân. Lần đầu tiên anh nhận ra rằng, đằng sau mỗi chẩn đoán là cả một thế giới nội tâm đầy xáo trộn cần được thấu hiểu. Cảm giác được lắng nghe và giữ chân mình lại trong những thời khắc đen tối nhất đã thôi thúc Quân trở thành một nhà tham vấn tâm lý chuyên nghiệp. Anh lựa chọn đi theo nhánh Lâm sàng của ngành Công tác Xã hội để có thể đồng hành với người khác bằng cả chuyên môn vững vàng lẫn sự thấu cảm của một người từng trải.`
+- EN: `Quan’s story began with a battle with leukemia at age 15. This major life turning point required him to travel to the United States for medical treatment. Amid the physical exhaustion of illness and the absolute disorientation of being in a foreign land, he received support from a hospital social worker. This worker provided psychological counseling for Quan, as well as helping his family manage the logistics of education, transportation, housing and finances.
+They sat down with him, helping him face and navigate the compounding crises that overwhelmed him at the time: the fear of death at just 15, the pressure of adapting to a sudden change of environment, the isolation of a teenager forced away from school and friends, and the deep insecurity of watching his body change, losing all his hair after long rounds of chemotherapy.
+Those therapeutic conversations completely changed the trajectory of Quan’s life. For the first time, he realized that behind every medical diagnosis lies a turbulent inner world in need of understanding. Feeling heard and grounded during his darkest hours inspired Quan to become a professional counselor. He chose the Clinical branch of Social Work so that he could walk alongside others with both rigorous professional expertise and the authentic empathy of someone who has lived through it.`
 
 **Pull quote**
 - VI: `“Sự hỗ trợ đúng cách, từ đúng người và vào đúng thời điểm đã thay đổi cuộc đời tôi. Đó là lý do vì sao tôi làm công việc này.”`
 - EN: `“The right support, from the right person, at the right time changed my life. That's why I do this work.”`
 
-**Paragraph 2**
-- VI: `Trải nghiệm đó đã thôi thúc Quân theo đuổi ngành tâm lý và hỗ trợ tinh thần một cách chuyên nghiệp. Quân tốt nghiệp Cử nhân Tâm lý học tại Đại học Brandeis, sau đó hoàn thành bằng Thạc sĩ Công tác Xã hội Lâm sàng tại Trường Silberman (CUNY) và nhận chứng chỉ hành nghề chuyên nghiệp (LMSW) của bang New York.
-Quân có nhiều năm làm việc trực tiếp tại các khu vực còn nhiều khó khăn ở Harlem và Jamaica (vùng Queens, New York). Công việc chính của anh lúc đó là trị liệu tâm lý và hỗ trợ phục hồi cho những cá nhân phải đối diện với chứng lo âu, trầm cảm nặng, hoặc các hội chứng tâm thần phức tạp như rối loạn lưỡng cực và tâm thần phân liệt.
+**Paragraph 3**
+- VI: `Quân tốt nghiệp Cử nhân Tâm lý học tại Đại học Brandeis, sau đó hoàn thành bằng Thạc sĩ Công tác Xã hội theo định hướng Thực hành Lâm sàng tại Trường CUNY Silberman và nhận chứng chỉ hành nghề chuyên nghiệp (LMSW) của bang New York. Anh có nhiều năm làm việc trực tiếp tại các khu vực còn nhiều khó khăn ở Harlem và Jamaica tại thành phố New York, tập trung vào tham vấn tâm lý cho những cá nhân phải sống chung với những rối loạn tâm thần phức tạp như rối loạn lưỡng cực, tâm thần phân liệt, sang chấn tâm lý phức tạp, lo âu và trầm cảm dạng nặng.
 Năm 2019, Quân trở về Việt Nam. Hiện tại, anh dành phần lớn thời gian để lắng nghe và đồng hành cùng các bạn trẻ qua các buổi tham vấn cá nhân 1-1, đồng thời tham gia tổ chức các buổi hội thảo, talkshow và chương trình đào tạo với mong muốn đưa những kiến thức thực tế về sức khỏe tinh thần đến gần hơn với cộng đồng.`
-- EN: `Inspired by that lifeline, Quan dedicated his life to paying it forward. He earned his BA in Psychology from Brandeis University and a Master of Social Work from the Silberman School of Social Work (CUNY), becoming a Licensed Master Social Worker (LMSW) in New York State. He spent years embedded in high-needs communities across Harlem and Jamaica, Queens, specializing in clinical therapy and community rehabilitation for individuals facing severe anxiety, depression, and complex psychiatric conditions like schizophrenia and bipolar disorder.
-In 2019, Quan returned home to Vietnam to bring his mission full circle. Today, he walks alongside young adults and their support systems through compassionate counseling, while breaking down mental health barriers across the country through community workshops, talks, and professional training.`
-
----
-
-## 5. APPROACH (streamlined)
-
-Keep the Person-in-Environment concentric diagram. MOVE the Clinical-Social-Work-
-vs-Clinical-Psychology comparison table off this landing page (to a future About /
-Approach page). Replace the heavy chip list + fit list with the two blocks below.
-
-**Intro (above the diagram)**
-- VI: `ThS. Quân không nhìn khó khăn của bạn như một vấn đề tách rời, mà đặt nó trong toàn bộ bối cảnh sống: cơ thể, suy nghĩ, cảm xúc, các mối quan hệ và môi trường xung quanh bạn. Đó là tinh thần của Công tác Xã hội Lâm sàng — và cũng là lý do mỗi lộ trình trị liệu được thiết kế riêng cho từng người.`
-- EN: `Mr. Quan doesn't treat your difficulty as an isolated problem — he places it within your whole context: your body, your thoughts, your emotions, your relationships, and the environment around you. That's the spirit of Clinical Social Work, and the reason every course of therapy is designed around the individual.`
-
-**Modalities line (under the diagram)**
-- VI: `Tùy vào bạn, ThS. Quân kết hợp linh hoạt các phương pháp đã được kiểm chứng: Liệu pháp Chấp nhận và Cam kết (ACT), Liệu pháp Nhận thức Hành vi (CBT), Liệu pháp Kích hoạt Hành vi (BA), và Liệu pháp dựa trên Tiến trình (PBT).`
-- EN: `Depending on what you need, Mr. Quan flexibly combines evidence-based approaches: ACT, CBT, Behavioral Activation, and Process-Based Therapy (PBT).`
+- EN: `Quan earned his BA in Psychology from Brandeis University, followed by a Master of Social Work with a clinical focus from the CUNY Silberman School of Social Work, and became a Licensed Master Social Worker (LMSW) in New York State. He spent years working directly in high-needs communities across Harlem and Jamaica, specializing in psychological counseling for individuals living with severe mental illnesses like bipolar disorder, schizophrenia, complex trauma, severe anxiety and depression.
+In 2019, Quan returned home to Vietnam. Today, he devotes most of his time to listening to and walking alongside young adults through private 1-on-1 counseling, while also organizing workshops, talks, and training programs to bring practical mental health knowledge closer to the community.`
