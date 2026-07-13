@@ -174,10 +174,10 @@
   .story-card.wide{grid-column:1/-1}
   .story-card.wide .reflection{max-width:82ch;font-size:19px}
   .advice-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-  .advice-card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 var(--r) var(--r) 0;padding:28px 30px;display:flex;flex-direction:column}
-  .advice-card .lbl{display:block;font:600 11px/1.3 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--eyebrow);margin-bottom:12px}
-  .advice-card p{font:400 15px/1.66 Inter,sans-serif;color:var(--body);margin:0 0 18px}
-  .advice-card footer{margin-top:auto;font:600 13.5px/1.4 Platypi,Georgia,serif;color:var(--green)}
+  .advice-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px 30px 30px;display:flex;flex-direction:column}
+  .advice-card::before{content:"\201C";position:absolute;top:12px;left:28px;font:italic 700 54px/1 Platypi,Georgia,serif;color:rgba(22,70,51,.16)}
+  .advice-card p{position:relative;font:italic 400 19px/1.55 Platypi,Georgia,serif;color:var(--ink-soft);margin:28px 0 18px}
+  .advice-card footer{margin-top:auto;font:600 13px/1.4 Inter,sans-serif;color:var(--eyebrow);letter-spacing:.02em}
 
   /* MEDIA */
   .media-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:44px}
@@ -570,12 +570,10 @@
     <p class="t-note" data-vi="Đôi lời từ những người đã đi qua hành trình tham vấn, dành cho ai đang cân nhắc bắt đầu." data-en="A few words from people who've been through counseling, for anyone thinking of starting.">Đôi lời từ những người đã đi qua hành trình tham vấn, dành cho ai đang cân nhắc bắt đầu.</p>
     <div class="advice-grid">
       <article class="advice-card">
-        <span class="lbl" data-vi="Lời khuyên" data-en="Advice">Lời khuyên</span>
         <p data-vi="Tham vấn có mang lại kết quả hay không phụ thuộc nhiều vào ba yếu tố: mức độ bạn cảm nhận được sự thấu cảm từ nhà tham vấn, sự chân thành và cởi mở khi chia sẻ, và nỗ lực tự thân của chính bạn. Khi đã nghĩ đến việc bắt đầu, hãy cân nhắc kỹ ba yếu tố ấy." data-en="Whether counseling works depends a lot on three things: how much you feel your counselor's empathy, how honestly and openly you share, and your own effort. If you're thinking about starting, weigh those three carefully first.">Tham vấn có mang lại kết quả hay không phụ thuộc nhiều vào ba yếu tố: mức độ bạn cảm nhận được sự thấu cảm từ nhà tham vấn, sự chân thành và cởi mở khi chia sẻ, và nỗ lực tự thân của chính bạn. Khi đã nghĩ đến việc bắt đầu, hãy cân nhắc kỹ ba yếu tố ấy.</p>
         <footer data-vi="— Chị M · 41 tuổi" data-en="— Ms. M · 41">— Chị M · 41 tuổi</footer>
       </article>
       <article class="advice-card">
-        <span class="lbl" data-vi="Lời khuyên" data-en="Advice">Lời khuyên</span>
         <p data-vi="Cho bản thân 14 ngày để thư giãn, bắt đầu bằng những mục tiêu nhỏ: ngủ sớm hơn 30 phút, đọc một trang sách, xem một tiểu phẩm hài, đi bộ 10 phút, gặp một người bạn cũ… để thoát khỏi những vòng lặp của suy nghĩ và cảm xúc bất ổn. Nếu sau đó vẫn thấy không vui, kiệt sức, hãy tìm đến chuyên gia — người có góc nhìn và lộ trình để cùng bạn cải thiện cảm xúc và tìm lại ý nghĩa, giá trị của mình trong chính cuộc đời mình." data-en="Give yourself 14 days to unwind, starting with tiny goals: sleep 30 minutes earlier, read one page, watch a comedy skit, walk for 10 minutes, meet an old friend… to step out of the loops of unsettled thoughts and feelings. If you still feel low or exhausted afterward, reach out to a professional — someone with the perspective and a roadmap to help you improve how you feel and rediscover your meaning and worth in your own life.">Cho bản thân 14 ngày để thư giãn, bắt đầu bằng những mục tiêu nhỏ: ngủ sớm hơn 30 phút, đọc một trang sách, xem một tiểu phẩm hài, đi bộ 10 phút, gặp một người bạn cũ… để thoát khỏi những vòng lặp của suy nghĩ và cảm xúc bất ổn. Nếu sau đó vẫn thấy không vui, kiệt sức, hãy tìm đến chuyên gia — người có góc nhìn và lộ trình để cùng bạn cải thiện cảm xúc và tìm lại ý nghĩa, giá trị của mình trong chính cuộc đời mình.</p>
         <footer data-vi="— Chị A · 37 tuổi" data-en="— Ms. A · 37">— Chị A · 37 tuổi</footer>
       </article>
