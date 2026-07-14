@@ -102,6 +102,8 @@
 
   /* APPROACH */
   .appr-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+  .appr-head{max-width:840px}
+  .diagram-center{display:flex;justify-content:center;margin:48px 0 4px}
   .diagram-wrap{display:flex;justify-content:center}
   .diagram{position:relative;width:460px;height:460px;border-radius:50%;background:#E7F0EA;border:1px solid rgba(16,66,46,.10)}
   .diagram .rl{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;font:700 15px/1 Inter,sans-serif;color:#1E4635}
@@ -325,11 +327,11 @@
       <span data-vi="ThS. Vũ Anh Quân" data-en="Quan Anh Vu, MSW">ThS. Vũ Anh Quân</span>
     </a>
     <nav class="nav-links" id="navLinks">
-      <a href="#story" data-vi="Câu chuyện" data-en="My Story">Câu chuyện</a>
-      <a href="#approach" data-vi="Cách tôi đồng hành cùng bạn" data-en="How I work with you">Cách tôi đồng hành cùng bạn</a>
-      <a href="#services" data-vi="Dịch vụ" data-en="My Services">Dịch vụ</a>
-      <a href="#programs" data-vi="Workshop" data-en="My Workshops">Workshop</a>
-      <a href="#media" data-vi="Truyền thông" data-en="Media">Truyền thông</a>
+      <a href="#story" data-vi="Giới thiệu" data-en="About">Giới thiệu</a>
+      <a href="#approach" data-vi="Phương pháp" data-en="My Approach">Phương pháp</a>
+      <a href="#services" data-vi="Dịch vụ" data-en="Services">Dịch vụ</a>
+      <a href="#testimonials" data-vi="Cảm nhận" data-en="Testimonials">Cảm nhận</a>
+      <a href="#media" data-vi="Truyền thông" data-en="Press">Truyền thông</a>
       <a href="#contact" class="mob-contact" data-vi="Liên hệ" data-en="Contact me">Liên hệ</a>
     </nav>
     <div class="lang" role="group" aria-label="Language">
@@ -417,8 +419,13 @@
 <!-- ============ APPROACH ============ -->
 <section class="sec bg-alt" id="approach">
   <div class="wrap">
-    <div class="appr-grid">
-    <div class="diagram-wrap">
+<div class="appr-head">
+      <p class="eyebrow" data-vi="Cách tôi sẽ đồng hành cùng bạn" data-en="My Approach">Cách tôi sẽ đồng hành cùng bạn</p>
+      <h2 class="h2" data-vi="Công tác Xã hội Lâm sàng — một góc nhìn toàn cảnh về sức khỏe tâm thần" data-en="Clinical Social Work — a holistic lens on mental health">Công tác Xã hội Lâm sàng — một góc nhìn toàn cảnh về sức khỏe tâm thần</h2>
+      <p class="lead" style="color:var(--body)" data-vi="Tôi không nhìn khó khăn của bạn như một lỗi cần sửa, mà là những phản ứng rất con người trước những áp lực cuộc sống. Khi đồng hành cùng tôi, bạn sẽ trải qua một lộ trình tham vấn được thiết kế riêng, kết hợp giữa sự thấu cảm sâu sắc của Công tác Xã hội Lâm sàng và tính khoa học, thực tiễn của những liệu pháp dựa trên bằng chứng." data-en="I don't see your difficulty as a flaw to be fixed, but as deeply human responses to life's pressures. Working with me, you'll follow a personalized course of care that blends the deep empathy of Clinical Social Work with the rigor and practicality of evidence-based therapies.">Tôi không nhìn khó khăn của bạn như một lỗi cần sửa, mà là những phản ứng rất con người trước những áp lực cuộc sống. Khi đồng hành cùng tôi, bạn sẽ trải qua một lộ trình tham vấn được thiết kế riêng, kết hợp giữa sự thấu cảm sâu sắc của Công tác Xã hội Lâm sàng và tính khoa học, thực tiễn của những liệu pháp dựa trên bằng chứng.</p>
+      <p class="lead" style="color:var(--body);margin-top:16px" data-vi="Khác với tâm lý học lâm sàng truyền thống thường chỉ tập trung vào nội tâm cá nhân, Công tác Xã hội Lâm sàng đặt bạn vào tâm điểm của một hệ sinh thái sống." data-en="Unlike traditional clinical psychology, which often focuses only on the individual's inner world, Clinical Social Work places you at the center of a living ecosystem.">Khác với tâm lý học lâm sàng truyền thống thường chỉ tập trung vào nội tâm cá nhân, Công tác Xã hội Lâm sàng đặt bạn vào tâm điểm của một hệ sinh thái sống.</p>
+    </div>
+    <div class="diagram-wrap diagram-center">
       <div class="diagram r5">
         <span class="rl" data-vi="Văn hóa · Xã hội" data-en="Culture · Society">Văn hóa · Xã hội</span>
         <div class="ring r4">
@@ -435,13 +442,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div>
-      <p class="eyebrow" data-vi="Cách tôi sẽ đồng hành cùng bạn" data-en="My Approach">Cách tôi sẽ đồng hành cùng bạn</p>
-      <h2 class="h2" data-vi="Công tác Xã hội Lâm sàng — một góc nhìn toàn cảnh về sức khỏe tâm thần" data-en="Clinical Social Work — a holistic lens on mental health">Công tác Xã hội Lâm sàng — một góc nhìn toàn cảnh về sức khỏe tâm thần</h2>
-      <p class="lead" style="color:var(--body)" data-vi="Tôi không nhìn khó khăn của bạn như một lỗi cần sửa, mà là những phản ứng rất con người trước những áp lực cuộc sống. Khi đồng hành cùng tôi, bạn sẽ trải qua một lộ trình tham vấn được thiết kế riêng, kết hợp giữa sự thấu cảm sâu sắc của Công tác Xã hội Lâm sàng và tính khoa học, thực tiễn của những liệu pháp dựa trên bằng chứng." data-en="I don't see your difficulty as a flaw to be fixed, but as deeply human responses to life's pressures. Working with me, you'll follow a personalized course of care that blends the deep empathy of Clinical Social Work with the rigor and practicality of evidence-based therapies.">Tôi không nhìn khó khăn của bạn như một lỗi cần sửa, mà là những phản ứng rất con người trước những áp lực cuộc sống. Khi đồng hành cùng tôi, bạn sẽ trải qua một lộ trình tham vấn được thiết kế riêng, kết hợp giữa sự thấu cảm sâu sắc của Công tác Xã hội Lâm sàng và tính khoa học, thực tiễn của những liệu pháp dựa trên bằng chứng.</p>
-      <p class="lead" style="color:var(--body);margin-top:16px" data-vi="Khác với tâm lý học lâm sàng truyền thống thường chỉ tập trung vào nội tâm cá nhân, Công tác Xã hội Lâm sàng đặt bạn vào tâm điểm của một hệ sinh thái sống." data-en="Unlike traditional clinical psychology, which often focuses only on the individual's inner world, Clinical Social Work places you at the center of a living ecosystem.">Khác với tâm lý học lâm sàng truyền thống thường chỉ tập trung vào nội tâm cá nhân, Công tác Xã hội Lâm sàng đặt bạn vào tâm điểm của một hệ sinh thái sống.</p>
-    </div>
     </div>
 
     <h3 class="appr-sub" data-vi="Bốn trụ cột của triết lý “Thay đổi Hành động, Thay đổi Cảm xúc”" data-en="The four pillars of “Act Different, Feel Different”">Bốn trụ cột của triết lý “Thay đổi Hành động, Thay đổi Cảm xúc”</h3>
