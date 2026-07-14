@@ -83,8 +83,8 @@ independently true.
 > (Section 2) for social proof, plus the single interim line below.
 
 **Interim line (this one CAN go live now — place where the testimonials will sit, or omit entirely):**
-- VI: `Gần một thập kỷ qua, Quân đã đồng hành cùng hàng trăm người trẻ trên hành trình hiểu mình và tìm lại sự cân bằng.`
-- EN: `Over nearly a decade, Quan has walked alongside hundreds of young people on the path to understanding themselves and finding their balance again.`
+- VI: `Gần một thập kỷ đồng hành cùng hàng trăm người trẻ trên hành trình hiểu mình và tìm lại sự cân bằng.`
+- EN: `Over nearly a decade of walking alongside hundreds of young people on the path to understanding themselves and finding their balance again.`
 
 **Section heading (for the commented-out block)**
 - VI: `Những người đã đồng hành cùng Quân`
@@ -97,8 +97,8 @@ independently true.
 ### Card 1 — N.A
 - Quote VI: `“Cảm ơn Quân rất nhiều. Em đã tiếp sức cho chị qua từng chặng của cuộc sống.”`
 - Quote EN: `“Thank you so much, Quan. You gave me strength through every stage of my life.”`
-- Descriptor VI: `Chị N.A · 38 tuổi — vượt qua giai đoạn hôn nhân tổn thương, tìm lại sự tự tin và vững vàng trong sự nghiệp.`
-- Descriptor EN: `N.A · 38 — moved through a painful marriage to rebuild her confidence and thrive in her career.`
+- Descriptor VI: `Chị N.A · 38 tuổi — vượt qua giai đoạn hôn nhân tổn thương, tìm lại sự tự tin và vững vàng trong cuộc sống và sự nghiệp.`
+- Descriptor EN: `N.A · 38 — moved through a painful marriage to rebuild her confidence and thrive in her personal life and career.`
 
 ### Card 2 — V.H
 - Quote VI: `“Mọi thứ đều ổn anh ạ. Em sắp về đến đích rồi, và em đã quyết định về Việt Nam làm việc. Gia đình em rất vui với quyết định này.”`
@@ -123,26 +123,22 @@ independently true.
 ## 4. STORY (replaces current story paragraphs; leads with the emotional core)
 
 **Paragraph 1**
-- VI: `Câu chuyện của Quân bắt đầu năm 15 tuổi, với chẩn đoán ung thư bạch cầu. Biến cố ấy buộc anh phải sang Mỹ điều trị. Giữa những ngày tháng vừa kiệt sức vì bệnh tật, vừa lạc lõng ở một đất nước xa lạ, Quân nhận được sự hỗ trợ từ một nhân viên công tác xã hội lâm sàng tại bệnh viện. Người này đã trực tiếp thực hiện các buổi tham vấn tâm lý chuyên sâu cho Quân, cũng như hỗ trợ gia đình anh lo liệu các thủ tục thực tế như giáo dục, đi lại, ăn ở và tài chính.
-Họ ngồi lại cùng anh, giúp anh đối diện và đi qua những cuộc khủng hoảng dồn dập đổ xuống lúc bấy giờ: nỗi sợ cái chết cận kề ở tuổi 15, áp lực thích nghi khi thay đổi môi trường sống quá đột ngột, cảm giác cô độc của một đứa trẻ mới lớn phải rời xa trường lớp, bạn bè, và cả sự tự ti khi chứng kiến cơ thể mình biến đổi, rụng tóc sau những đợt hóa trị dài ngày.
-Những buổi trò chuyện trị liệu đó đã thay đổi hoàn toàn hướng đi cuộc đời Quân. Lần đầu tiên anh nhận ra rằng, đằng sau mỗi chẩn đoán là cả một thế giới nội tâm đầy xáo trộn cần được thấu hiểu. Cảm giác được lắng nghe và giữ chân mình lại trong những thời khắc đen tối nhất đã thôi thúc Quân trở thành một nhà tham vấn tâm lý chuyên nghiệp. Anh lựa chọn đi theo nhánh Lâm sàng của ngành Công tác Xã hội để có thể đồng hành với người khác bằng cả chuyên môn vững vàng lẫn sự thấu cảm của một người từng trải.`
+- VI: `Câu chuyện của Quân bắt đầu năm 15 tuổi, với chẩn đoán ung thư bạch cầu. Biến cố ấy buộc tôi phải sang Mỹ điều trị. Giữa những ngày tháng vừa kiệt sức vì bệnh tật, vừa lạc lõng ở một đất nước xa lạ, Quân nhận được sự hỗ trợ từ một nhân viên công tác xã hội lâm sàng tại bệnh viện. Người này đã trực tiếp thực hiện các buổi tham vấn tâm lý chuyên sâu cho Quân, cũng như hỗ trợ gia đình anh lo liệu các thủ tục thực tế như giáo dục, đi lại, ăn ở và tài chính.
+Họ ngồi lại cùng Quân, giúp tôi đối diện và đi qua những cuộc khủng hoảng dồn dập đổ xuống lúc bấy giờ: nỗi sợ cái chết cận kề ở tuổi 15, áp lực thích nghi khi thay đổi môi trường sống quá đột ngột, cảm giác cô độc của một đứa trẻ mới lớn phải rời xa trường lớp, bạn bè, và cả sự tự ti khi chứng kiến cơ thể mình biến đổi, rụng tóc sau những đợt hóa trị dài ngày.
+Những buổi trò chuyện trị liệu đó đã thay đổi hoàn toàn hướng đi cuộc đời tôi. Lần đầu tiên Quân nhận ra rằng, đằng sau mỗi chẩn đoán là cả một thế giới nội tâm đầy xáo trộn cần được thấu hiểu. Cảm giác được lắng nghe và giữ chân mình lại trong những thời khắc đen tối nhất đã thôi thúc Quân trở thành một nhà tham vấn tâm lý chuyên nghiệp. Cũng chính vì vậy mà tôi lựa chọn đi theo nhánh Lâm sàng của ngành Công tác Xã hội để có thể đồng hành với người khác bằng cả chuyên môn lẫn sự thấu cảm của một người từng trải.`
 - EN: `Quan’s story began with a battle with leukemia at age 15. This major life turning point required him to travel to the United States for medical treatment. Amid the physical exhaustion of illness and the absolute disorientation of being in a foreign land, he received support from a hospital social worker. This worker provided psychological counseling for Quan, as well as helping his family manage the logistics of education, transportation, housing and finances.
 They sat down with him, helping him face and navigate the compounding crises that overwhelmed him at the time: the fear of death at just 15, the pressure of adapting to a sudden change of environment, the isolation of a teenager forced away from school and friends, and the deep insecurity of watching his body change, losing all his hair after long rounds of chemotherapy.
 Those therapeutic conversations completely changed the trajectory of Quan’s life. For the first time, he realized that behind every medical diagnosis lies a turbulent inner world in need of understanding. Feeling heard and grounded during his darkest hours inspired Quan to become a professional counselor. He chose the Clinical branch of Social Work so that he could walk alongside others with both rigorous professional expertise and the authentic empathy of someone who has lived through it.`
 
-**Pull quote**
-- VI: `“Sự hỗ trợ đúng cách, từ đúng người và vào đúng thời điểm đã thay đổi cuộc đời tôi. Đó là lý do vì sao tôi làm công việc này.”`
-- EN: `“The right support, from the right person, at the right time changed my life. That's why I do this work.”`
-
-**Paragraph 3**
-- VI: `Quân tốt nghiệp Cử nhân Tâm lý học tại Đại học Brandeis, sau đó hoàn thành bằng Thạc sĩ Công tác Xã hội theo định hướng Thực hành Lâm sàng tại Trường CUNY Silberman và nhận chứng chỉ hành nghề chuyên nghiệp (LMSW) của bang New York. Anh có nhiều năm làm việc trực tiếp tại các khu vực còn nhiều khó khăn ở Harlem và Jamaica tại thành phố New York, tập trung vào tham vấn tâm lý cho những cá nhân phải sống chung với những rối loạn tâm thần phức tạp như rối loạn lưỡng cực, tâm thần phân liệt, sang chấn tâm lý phức tạp, lo âu và trầm cảm dạng nặng.
-Năm 2019, Quân trở về Việt Nam. Hiện tại, anh dành phần lớn thời gian để lắng nghe và đồng hành cùng các bạn trẻ qua các buổi tham vấn cá nhân 1-1, đồng thời tham gia tổ chức các buổi hội thảo, talkshow và chương trình đào tạo với mong muốn đưa những kiến thức thực tế về sức khỏe tinh thần đến gần hơn với cộng đồng.`
+**Paragraph 2**
+- VI: `Quân tốt nghiệp Cử nhân Tâm lý học tại Đại học Brandeis, sau đó hoàn thành bằng Thạc sĩ Công tác Xã hội theo định hướng Thực hành Lâm sàng tại Trường CUNY Silberman và nhận chứng chỉ hành nghề chuyên nghiệp (LMSW) của bang New York. Sau khi tốt nghiệp, tôi đã có nhiều năm làm việc trực tiếp tại các khu vực còn nhiều khó khăn ở Harlem và Jamaica tại thành phố New York, tập trung vào tham vấn tâm lý cho những cá nhân phải sống chung với những rối loạn tâm thần phức tạp như rối loạn lưỡng cực, tâm thần phân liệt, sang chấn tâm lý phức tạp, lo âu và trầm cảm dạng nặng.
+Sau khi quyết định trở về Việt Nam vào năm 2019, hiện tại tôi dành phần lớn thời gian để lắng nghe và đồng hành cùng các bạn trẻ qua các buổi tham vấn cá nhân 1-1, đồng thời tham gia tổ chức các buổi hội thảo, talkshow và chương trình đào tạo với mong muốn đưa những kiến thức thực tế về sức khỏe tinh thần đến gần hơn với cộng đồng.`
 - EN: `Quan earned his BA in Psychology from Brandeis University, followed by a Master of Social Work with a clinical focus from the CUNY Silberman School of Social Work, and became a Licensed Master Social Worker (LMSW) in New York State. He spent years working directly in high-needs communities across Harlem and Jamaica, specializing in psychological counseling for individuals living with severe mental illnesses like bipolar disorder, schizophrenia, complex trauma, severe anxiety and depression.
 In 2019, Quan returned home to Vietnam. Today, he devotes most of his time to listening to and walking alongside young adults through private 1-on-1 counseling, while also organizing workshops, talks, and training programs to bring practical mental health knowledge closer to the community.`
 
 ---
 
-## 5. Methodology & Clinical Approach
+## 5. Cách tôi sẽ đồng hành cùng bạn (EN: My Approach)
 
 - Visual Diagram Rings (Systemic Framework):
   - Văn hóa · Xã hội (EN: Culture · Society)
@@ -155,22 +151,35 @@ In 2019, Quan returned home to Vietnam. Today, he devotes most of his time to li
 
   - Cá nhân (EN: Individual)
 
-- Eyebrow: Mô hình thực hành (EN: Practice model)
+- Eyebrow: Cách tôi sẽ đồng hành cùng bạn (EN: My Approach)
 
 - Section Title (H2): Công tác Xã hội Lâm sàng — một góc nhìn toàn cảnh về sức khỏe tâm thần (EN: Clinical Social Work — a holistic lens on mental health)
 
-- Approach Paragraph: ThS. Quân không nhìn khó khăn của bạn như một vấn đề tách rời, mà đặt nó trong toàn bộ bối cảnh sống: cơ thể, suy nghĩ, cảm xúc, các mối quan hệ và môi trường xung quanh bạn. Đó là tinh thần của Công tác Xã hội Lâm sàng — và cũng là lý do mỗi lộ trình trị liệu được thiết kế riêng cho từng người. (EN: Mr. Quan doesn't treat your difficulty as an isolated problem — he places it within your whole context: your body, your thoughts, your emotions, your relationships, and the environment around you. That's the spirit of Clinical Social Work, and the reason every course of therapy is designed around the individual.)
+- Approach Paragraph: Tôi không nhìn khó khăn của bạn như một lỗi cần sửa, mà là những phản ứng rất con người trước những áp lực cuộc sống. Khi đồng hành cùng tôi, bạn sẽ trải qua một lộ trình trị liệu được thiết kế riêng, kết hợp giữa sự thấu cảm sâu sắc của Công tác Xã hội Lâm sàng và tính khoa học, thực tiễn của những liệu pháp dựa trên bằng chứng.
+Khác với tâm lý học lâm sàng truyền thống thường chỉ tập trung vào nội tâm cá nhân, Công tác Xã hội Lâm sàng đặt bạn vào tâm điểm của một hệ sinh thái sống.
 
-- Frameworks Intro: ThS. Quân kết hợp linh hoạt các phương pháp đã được kiểm chứng dựa trên tình trạng và nhu cầu cụ thể của bạn: (EN: Mr. Quan flexibly combines evidence-based approaches based on your specific status and needs:)
+Page will display only title of each pillar, displayed in smooth rectangular blocks in 2x2, and expand out into the body content as the title block is clicked
+- 4 Trụ cột của triết lý Thay đổi Hành động, Thay đổi Cảm xúc (Act Different, Feel Different)
+1. Nhìn nhận bạn trong toàn bộ bối cảnh sống (Person-in-Environment)
+Những áp lực từ gia đình, văn hóa, công việc hay các bước ngoặt trưởng thành không chỉ đơn giản là bối cảnh — chúng là một phần cốt lõi trong câu chuyện của bạn. Chúng ta sẽ cùng nhìn nhận cách môi trường xung quanh đang tác động đến thế giới nội tâm của bạn như thế nào.
+2. Biến triệu chứng thành sự thấu cảm
+Sự lo âu, né tránh hay kiệt sức luôn phục vụ mục đích sinh tồn: cố gắng bảo vệ bạn khỏi tổn thương và thất vọng. Thay vì phán xét hay cố gắng triệt tiêu chúng ngay lập tức, chúng ta sẽ cùng giải mã để hiểu rõ cơ chế phòng vệ vệ của bạn, từ đó tiếp cận bản thân bằng sự trắc ẩn thay vì chỉ trích.
+3. Thay đổi hành động để dịch chuyển cảm xúc 
+Nhận thức về bản thân nếu chỉ dừng lại ở tầng suy nghĩ thì chưa đủ để tạo ra thay đổi. Thay vì chờ đợi cảm xúc tốt lên mới bắt đầu hành động, tôi sẽ đồng hành cùng bạn thiết kế những "thử nghiệm hành vi" nhỏ, an toàn nhưng thực tế ngay trong đời sống hằng ngày để phá vỡ các vòng lặp bế tắc.
+4. Hướng tới một cuộc sống trọn vẹn, không chỉ thuyên giảm triệu chứng
+Mục tiêu cuối cùng của tham vấn không phải là biến bạn thành một người "không còn tổn thương", mà là giúp bạn xây dựng khả năng thích nghi và uyển chuyển về tâm lý. Bạn sẽ học cách chung sống hòa bình với những cảm xúc khó khăn và dành trọn vẹn năng lượng để sống một cuộc sống có ý nghĩa, dựa trên những giá trị sống mà bạn thực sự trân trọng.
 
+- Frameworks Intro: Các phương pháp can thiệp tâm lý dựa trên bằng chứng được phối hợp linh hoạt và cá nhân hoá dành cho bạn:
+
+Page will display only the title of each modality, displayed in smooth rectangular blocks in 4x1, and expand out into the body content as the title block is clicked
 - Modalities List:
-  - Liệu pháp Chấp nhận và Cam kết (ACT) (EN: Acceptance and Commitment Therapy (ACT))
+  - Liệu pháp Chấp nhận và Cam kết (ACT): Ngừng kiệt sức vì chiến đấu với cảm xúc, học cách bao dung với thế giới nội tâm và cam kết hành động theo giá trị sống.
 
-  - Liệu pháp Nhận thức Hành vi (CBT) (EN: Cognitive Behavioral Therapy (CBT))
+  - Liệu pháp Nhận thức Hành vi (CBT): Nhận diện và thoát khỏi các "bẫy tư duy" cùng các niềm tin cốt lõi đang âm thầm thao túng cảm xúc.
 
-  - Liệu pháp Kích hoạt Hành vi (BA) (EN: Behavioral Activation (BA))
+  - Liệu pháp Kích hoạt Hành vi (BA): Thiết lập lại các hành động nhỏ để kích hoạt lại tâm trạng tích cực, đặc biệt hiệu quả với trầm cảm và mất động lực.
 
-  - Liệu pháp dựa trên Tiến trình (PBT) (EN: Process-Based Therapy (PBT))
+  - Liệu pháp dựa trên Tiến trình (PBT): Cá nhân hóa lộ trình dựa trên sự chuyển biến liên tục của bạn thay vì áp dụng một công thức cứng nhắc.
 
 ## 6. Core Services
 
