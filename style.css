@@ -40,8 +40,8 @@
   footer.ft .brand .mark .m1{fill:var(--paper)}
   .brand span{font:600 17px/1 Platypi,Georgia,serif;color:var(--green);letter-spacing:.01em}
   .nav-links{display:flex;gap:26px;align-items:center}
-  .nav-links a{font:500 14px/1 Inter,sans-serif;color:var(--body);transition:color .18s}
-  .nav-links a:hover{color:var(--green)}
+  .nav-links a{font:500 14px/1 Inter,sans-serif;color:var(--body);padding:9px 12px;margin:-9px -12px;border-radius:6px;transition:color .18s,background .18s}
+  .nav-links a:hover{color:var(--green);background:rgba(22,70,51,.08)}
   .nav-links .mob-contact{display:none}
   .lang{display:flex;flex:0 0 auto;border:1px solid rgba(16,66,46,.2);border-radius:4px;overflow:hidden;font:600 12px/1 Inter,sans-serif}
   .lang button{border:0;background:transparent;cursor:pointer;padding:7px 10px;color:var(--muted);font:inherit}
@@ -291,7 +291,7 @@
     .nav-links{position:absolute;top:64px;left:0;right:0;background:var(--paper);flex-direction:column;
       align-items:flex-start;gap:0;padding:8px 24px 18px;border-bottom:1px solid var(--line);display:none}
     .nav-links.open{display:flex}
-    .nav-links a{padding:11px 0;width:100%}
+    .nav-links a{padding:11px 0;margin:0;width:100%;border-radius:0}
     .nav-toggle{display:block}
     .nav-cta{display:none}
     .nav-links .mob-contact{display:block}
@@ -311,7 +311,7 @@
 .nav-drop>.subm{position:absolute;top:100%;left:0;margin-top:8px;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:6px 0;min-width:150px;box-shadow:0 12px 30px rgba(16,66,46,.13);display:none;flex-direction:column;z-index:80}
 .nav-drop:hover>.subm{display:flex}
 .subm a{padding:9px 18px;white-space:nowrap;font:500 13.5px/1.2 Inter,sans-serif;color:var(--body)}
-.subm a:hover{color:var(--green)}
+.subm a:hover{color:var(--green);background:rgba(22,70,51,.08)}
 .nav-links a.active{color:var(--green)}
 .home-sums{display:flex;flex-direction:column}
 .hsum{max-width:860px;padding:48px 0;border-top:1px solid var(--line)}
@@ -395,4 +395,5 @@
 .svc-bi svg{width:19px;height:19px;flex:0 0 auto;stroke:var(--gold);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .svc-bi p{font:400 13.5px/1.55 Inter,sans-serif;color:var(--muted);margin:0}
 .svc-bi b{color:var(--green);font-weight:600}
-.svc-bi-sub{font:italic 500 20px/1.34 Platypi,Georgia,serif;color:var(--gold);margin:14px 0 0;max-width:640px}
+.svc-bi-sub{font:italic 500 16.5px/1.4 Platypi,Georgia,serif;color:var(--gold);margin:12px 0 0;max-width:none;white-space:nowrap}
+@media(max-width:860px){.svc-bi-sub{white-space:normal}}
