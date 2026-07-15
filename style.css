@@ -92,7 +92,9 @@
 
   /* APPROACH */
   .appr-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-  .appr-head{max-width:840px}
+  .appr-head{max-width:none}
+  .appr-head .lead{max-width:none}
+  .appr-head .h2{max-width:860px}
   .diagram-center{display:flex;justify-content:center;margin:48px 0 4px}
   .diagram-wrap{display:flex;justify-content:center}
   .diagram{position:relative;width:460px;height:460px;border-radius:50%;background:#E7F0EA;border:1px solid rgba(16,66,46,.10)}
