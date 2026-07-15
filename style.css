@@ -390,9 +390,9 @@
   .pperson{width:22px;height:22px}
 }
 
-/* Bilingual service stamp */
-.svc-stamp{display:inline-flex;flex-direction:column;align-items:center;gap:3px;align-self:flex-start;margin-top:30px;padding:13px 22px 12px;border:2px solid var(--gold);border-radius:9px;position:relative;transform:rotate(-3deg);color:var(--gold);background:rgba(197,138,58,.05)}
-.svc-stamp::before{content:"";position:absolute;inset:4px;border:1px solid rgba(197,138,58,.45);border-radius:5px;pointer-events:none}
-.svc-stamp .st-top{font:700 10px/1 Inter,sans-serif;letter-spacing:.24em;text-transform:uppercase}
-.svc-stamp .st-main{font:600 17px/1.1 Platypi,Georgia,serif;letter-spacing:.01em;margin:1px 0}
-.svc-stamp .st-sub{font:600 9px/1 Inter,sans-serif;letter-spacing:.15em;text-transform:uppercase;opacity:.82}
+/* Bilingual service note (homepage summary) + tagline (services page) */
+.svc-bi{display:flex;gap:11px;align-items:center;align-self:flex-start;max-width:560px;margin-top:26px;padding-top:16px;border-top:1px solid var(--line-soft)}
+.svc-bi svg{width:19px;height:19px;flex:0 0 auto;stroke:var(--gold);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.svc-bi p{font:400 13.5px/1.55 Inter,sans-serif;color:var(--muted);margin:0}
+.svc-bi b{color:var(--green);font-weight:600}
+.svc-bi-sub{font:italic 500 20px/1.34 Platypi,Georgia,serif;color:var(--gold);margin:14px 0 0;max-width:640px}
