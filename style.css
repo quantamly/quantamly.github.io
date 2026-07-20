@@ -25,6 +25,7 @@
   .h2.light{color:var(--paper)}
   .lead{font:400 17px/1.7 Inter,sans-serif;color:var(--muted);max-width:640px}
   .lead.on-deep{color:rgba(234,241,235,.72)}
+  .lead.full{max-width:none}
   .bg-alt{background:var(--paper-alt);border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft)}
   .bg-deep{background:var(--green-deep);color:var(--on-deep)}
   .bg-green{background:var(--green);color:var(--paper)}
@@ -181,7 +182,7 @@
   .tcard::before{content:"\201C";position:absolute;top:12px;left:28px;font:italic 700 54px/1 Platypi,Georgia,serif;color:rgba(22,70,51,.16)}
   .tcard p{position:relative;font:italic 400 19px/1.55 Platypi,Georgia,serif;color:var(--ink-soft);margin:28px 0 18px}
   .tcard footer{font:600 13px/1.4 Inter,sans-serif;color:var(--eyebrow);letter-spacing:.02em}
-  .t-note{font:400 13.5px/1.5 Inter,sans-serif;color:var(--muted);margin:0 0 26px;max-width:640px}
+  .t-note{font:400 17px/1.7 Inter,sans-serif;color:var(--muted);margin:0 0 26px;max-width:640px}
   .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
   .story-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:30px 30px 28px;display:flex;flex-direction:column}
   .story-card .who{font:600 16px/1.3 Platypi,Georgia,serif;color:var(--green)}
@@ -214,7 +215,7 @@
   .vov .out{font:600 12px/1 Inter,sans-serif;letter-spacing:.08em;color:var(--gold-hero);min-width:130px}
   .vov .ti{font:500 16px/1.45 Inter,sans-serif;color:var(--on-deep)}
   .vov .dt{font:400 13px/1 Inter,sans-serif;color:rgba(234,241,235,.55);margin-left:auto;white-space:nowrap}
-  .media-more{margin-top:28px}
+  .media-more{margin-top:28px;margin-bottom:44px}
   .media-more a{font:600 14px/1 Inter,sans-serif;color:var(--gold-hero);border:1px solid rgba(245,241,232,.28);padding:11px 20px;border-radius:4px;display:inline-block}
 
   /* CREDENTIALS + PUBLICATIONS */
