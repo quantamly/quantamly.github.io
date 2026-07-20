@@ -91,10 +91,11 @@
   .story .portrait img{width:100%;height:100%;object-fit:cover}
   .story .pcap{font:400 14px/1.6 Inter,sans-serif;color:var(--muted);margin:16px 2px 0}
   /* Sticky right column so it fills the space beside the tall story text.
-     Capped at 400px: portrait 500 + quote + caption = ~711px, which needs
-     ~800px of viewport under the 88px nav offset. Below that the min-height
-     guard drops it back to static — a taller-than-viewport sticky block would
-     pin the quote and caption permanently below the fold. */
+     The block must fit the viewport or the quote and caption pin below the
+     fold. A fixed 4/5 portrait made it 711px — taller than most laptop
+     viewports (a 1440x900 Mac gives ~760px), so sticky never engaged.
+     Sizing the portrait in vh keeps the whole block proportional to whatever
+     screen it lands on; object-fit:cover keeps the subject centred. */
   .story .story-grid>div:last-child{max-width:400px;margin-left:auto}
   .story .story-grid .pull{margin:22px 0 0}
   /* Three grid items in a two-column grid, so placement must be explicit —
@@ -104,8 +105,9 @@
     .story .story-body{grid-column:1;grid-row:2}
     .story .story-grid>div:last-child{grid-column:2;grid-row:1/3}
   }
-  @media(min-width:981px) and (min-height:800px){
+  @media(min-width:981px) and (min-height:640px){
     .story .story-grid>div:last-child{position:sticky;top:88px;align-self:start}
+    .story .story-grid .portrait{aspect-ratio:auto;height:min(46vh,460px)}
   }
   @media(prefers-reduced-motion:reduce){
     .story .story-grid>div:last-child{position:static;top:auto}
