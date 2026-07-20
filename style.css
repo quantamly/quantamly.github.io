@@ -1,7 +1,7 @@
 
   :root{
     --paper:#F5F1E8; --paper-alt:#EDE7DA; --card:#FBF9F3;
-    --green-deep:#123B28; --green:#164633; --green-mid:#2E6A4C;
+    --green-deep:#123B28; --green:#164633; --green-mid:#2E6A4C; --green-footer:#0C2A1C;
     --ink:#1E2A24; --ink-soft:#233029; --body:#3C4A42; --muted:#5C6B62;
     --gold:#C58A3A; --eyebrow:#8A5A1F; --gold-hero:#D9A24E; --gold-accent:#F0B860;
     --peach:#F6C98A;
@@ -257,7 +257,7 @@
   .privacy-note.center b{color:var(--gold-hero)}
 
   /* FOOTER */
-  footer.ft{background:var(--green-deep);color:rgba(234,241,235,.7);padding:56px 24px;text-align:center}
+  footer.ft{background:var(--green-footer);color:rgba(234,241,235,.7);padding:56px 24px;text-align:center}
   footer.ft .brand{justify-content:center;margin:0 0 14px}
   footer.ft .brand span{color:var(--paper)}
   footer.ft .fsoc{display:flex;gap:22px;justify-content:center;margin-bottom:18px;font:500 14px/1 Inter,sans-serif}
