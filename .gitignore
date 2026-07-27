@@ -27,3 +27,10 @@ assets/
 
 # Except the social-share (Open Graph) image, which must be deployed
 !og-cover.jpg
+
+# Except site images extracted from inline base64 (must be deployed)
+!img/
+!img/*.jpg
+!img/*.jpeg
+!img/*.png
+!img/*.webp
