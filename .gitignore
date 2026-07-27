@@ -24,3 +24,6 @@ assets/
 *.xlsx
 *.gsheet
 *.gdoc
+
+# Except the social-share (Open Graph) image, which must be deployed
+!og-cover.jpg
